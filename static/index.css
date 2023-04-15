@@ -1,0 +1,119 @@
+body {
+  background-color: #f7f6ee;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.entry-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nickname {
+  margin-right: 0.5%;
+}
+
+.cb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.chat-list {
+  background-color: #9fdded;
+  border-radius: 20px;
+  width: 50%;
+  height: 500px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.msg-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.chat-list div {
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.chat-list div div {
+  display: inline-block;
+  padding: 3px;
+}
+
+.my-chat {
+  text-align: right;
+}
+
+.my-chat div {
+  background-color: #fada95;
+}
+
+.other-chat {
+  text-align: left;
+}
+
+.other-chat div {
+  background-color: #fff;
+}
+
+/* [실습5] DM 기능 */
+.secret-chat div {
+  background-color: pink;
+}
+
+/* [실습3] */
+.notice {
+  text-align: center;
+  color: #005397;
+  font-size: 12px;
+}
+
+.d-none {
+  display: none;
+}
+
+#nick-list {
+  margin-right: 0.5%;
+}
+
+#message {
+  width: 30%;
+  height: 25px;
+  border: 0;
+  border-radius: 10px;
+  background-color: lightgray;
+  margin-left: 2%;
+  margin-right: 0.5%;
+}
+
+.file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+
+button {
+  background-color: #fada95;
+  border: 0;
+  border-radius: 5px;
+  width: 30;
+  height: 25px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
